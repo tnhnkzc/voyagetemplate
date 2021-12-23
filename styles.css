@@ -1,0 +1,321 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+section {
+  display: flex;
+  justify-content: center;
+}
+.logo-img {
+  width: 17%;
+  float: left;
+  margin-left: 50px;
+}
+.nav-links ul {
+  display: flex;
+}
+ul li {
+  text-decoration: none;
+  list-style-type: none;
+  padding: 20px;
+  font-size: 32px;
+  font-family: "Montserrat", sans-serif;
+  padding-right: 75px;
+  padding-left: 75px;
+  margin-top: 75px;
+}
+.nav-links ul li a {
+  text-decoration: none;
+  color: black;
+}
+.nav-links ul li a:hover {
+  color: red;
+  transition: 0.8s all;
+}
+.first-container {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.sub-title {
+  margin-top: 300px;
+  margin-right: 100px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+}
+.map {
+  width: 1000px;
+  border: transparent solid;
+  border-radius: 10px;
+}
+.second-container {
+  margin: 50px;
+  text-align: center;
+}
+.texte-1 {
+  font-size: 24px;
+}
+.ist {
+  margin-top: 50px;
+  text-align: center;
+}
+.texte-2 {
+  font-size: 24px;
+}
+.ist-img {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.ist-img img {
+  border: transparent solid;
+  border-radius: 10px;
+  width: 33%;
+}
+.place-name {
+  display: flex;
+  margin-top: 25px;
+}
+.place-name p {
+  padding-left: 200px;
+  padding-right: 200px;
+  font-size: 24px;
+}
+.antalya {
+  float: left;
+  margin-top: 100px;
+  text-align: center;
+}
+.texte-3 {
+  font-size: 24px;
+}
+.antalya-img {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.antalya-img img {
+  border: transparent solid;
+  border-radius: 10px;
+  width: 33%;
+}
+.nevsehir {
+  float: left;
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.texte-4 {
+  font-size: 24px;
+}
+.nevsehir-img {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.nevsehir-img img {
+  border: transparent solid;
+  border-radius: 10px;
+  width: 33%;
+}
+/* footer */
+.footer {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+.footer a:hover {
+  color: red;
+  transition: 0.8s all;
+}
+/* page budget */
+.transport {
+  margin-top: 200px;
+  text-align: center;
+}
+.transport h1 {
+  text-align: left;
+  margin-left: 100px;
+}
+
+.transport h2 {
+  margin-left: 150px;
+  margin-top: 40px;
+  font-size: 30px;
+  text-align: left;
+}
+.cost-transport img {
+  width: 50%;
+}
+.hebergement {
+  text-align: center;
+}
+.hebergement h2 {
+  font-size: 30px;
+  margin-top: 50px;
+  text-align: left;
+  margin-left: 150px;
+}
+.hebergement img {
+  width: 50%;
+}
+.autre {
+  text-align: center;
+}
+.autre h2 {
+  font-size: 30px;
+  margin-top: 50px;
+  text-align: left;
+  margin-left: 150px;
+}
+
+/* page hébérgement */
+.container-1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.istanbul {
+  text-align: center;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+.istanbul p {
+  margin-top: 10px;
+  font-size: 24px;
+}
+.istanbul h2 {
+  margin-top: 25px;
+}
+
+.istanbul img {
+  width: 25%;
+  margin-top: 50px;
+  padding: 25px;
+}
+.ant {
+  text-align: center;
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+.ant p {
+  margin-top: 10px;
+  font-size: 24px;
+}
+.ant h2 {
+  margin-top: 25px;
+}
+.ant img {
+  width: 25%;
+  height: 80%;
+  margin-top: 50px;
+}
+.nev {
+  text-align: center;
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+.nev p {
+  margin-top: 10px;
+  font-size: 24px;
+}
+.nev h2 {
+  margin-top: 25px;
+}
+.nev img {
+  width: 25%;
+  height: 80%;
+  margin-top: 50px;
+}
+
+/* page CULTURE */
+.container {
+  margin-top: 200px;
+  text-align: center;
+}
+.container h1 {
+  font-size: 36px;
+}
+.container h2 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 28px;
+}
+
+.cult-ist ul li img {
+  width: 50%;
+}
+.cult-ant ul li img {
+  width: 50%;
+}
+.cult-ist p {
+  font-size: 24px;
+}
+.cult-ist ul li {
+  font-size: 24px;
+}
+.cult-ant p {
+  font-size: 24px;
+}
+.cult-ant ul li {
+  font-size: 24px;
+}
+.traduction pre {
+  font-size: 24px;
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.cult-nev ul li img {
+  width: 50%;
+}
+.cult-nev p {
+  font-size: 24px;
+}
+.cult-nev ul li {
+  font-size: 24px;
+}
+@media screen and (max-width: 1270px) {
+  * {
+    overflow-x: hidden;
+  }
+  .nav-links ul li {
+    font-size: 20px;
+  }
+  .map {
+    width: 750px;
+    padding-right: 100px;
+  }
+  .place-name p {
+    font-size: 16px;
+    padding-right: 200px;
+    padding-left: 100px;
+  }
+}
