@@ -303,20 +303,3 @@ ul li {
 .cult-nev ul li {
   font-size: 24px;
 }
-@media screen and (max-width: 1270px) {
-  * {
-    overflow-x: hidden;
-  }
-  .nav-links ul li {
-    font-size: 20px;
-  }
-  .map {
-    width: 750px;
-    padding-right: 100px;
-  }
-  .place-name p {
-    font-size: 16px;
-    padding-right: 200px;
-    padding-left: 100px;
-  }
-}
