@@ -24,7 +24,7 @@ ul li {
   padding: 20px;
   font-size: 32px;
   font-family: "Montserrat", sans-serif;
-  padding-right: 75px;
+  padding-right: 50px;
   padding-left: 75px;
   margin-top: 75px;
 }
@@ -90,9 +90,9 @@ ul li {
   margin-top: 25px;
 }
 .place-name p {
-  padding-left: 200px;
+  padding-left: 100px;
   padding-right: 200px;
-  font-size: 24px;
+  font-size: 16px;
 }
 .antalya {
   float: left;
